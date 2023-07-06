@@ -102,6 +102,8 @@
 .service-container {
     display: flex;
     justify-content: space-around;
+    background: linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    height: 70vh;
 }
 .cards {
     color: white;
@@ -127,6 +129,46 @@
     background-color: gray;
     color: white;
     border: none;
+}
+
+/* footer starts */
+
+footer {
+    background-color: gray;
+}
+.footer-container {
+    color: white;
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.box-1 {
+    width: 250px;
+}
+.box-1-img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+.box-2 {
+    width: 200px;
+}
+.box-title {
+    margin-bottom: 30px;
+}
+.items {
+    list-style: none;
+    margin-top: 10px;
+}
+.box-3 {
+    width: 270px;
+}
+hr {
+    margin: 0 120px;
+}
+.copyright {
+    text-align: center;
+    color: white;
+    padding: 20px
 }
 
 
