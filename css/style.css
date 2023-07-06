@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+/* header section starts */
+body {
+    
+}
 .menu-container {
     background-color: rgb(44, 42, 42);
     color: white;
@@ -29,4 +33,36 @@
 .item:hover {
     color: aqua;
     cursor: pointer;
+}
+
+/* banner section starts */
+
+.banner-container {
+    background-image: url("images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner-title {
+    font-size: 55px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.banner-text {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.btn-banner {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+.banner-img {
+    width: 300px;
 }
