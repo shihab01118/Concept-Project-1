@@ -3,9 +3,7 @@
     padding: 0;
 }
 /* header section starts */
-body {
-    
-}
+
 .menu-container {
     background-color: rgb(44, 42, 42);
     color: white;
@@ -65,4 +63,31 @@ body {
 }
 .banner-img {
     width: 300px;
+}
+
+/* about as section starts */
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.about-title {
+    font-size: 55px;
+    text-align: center;
+    margin-top: 20px;
+}
+.about-img {
+    width: 300px;
+}
+.about-text-title {
+    margin-bottom: 10px;
+}
+.btn-about {
+    margin-top: 5px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
 }
