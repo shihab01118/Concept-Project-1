@@ -36,7 +36,7 @@
 /* banner section starts */
 
 .banner-container {
-    background-image: url("images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    background-image: url("../images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
